@@ -395,7 +395,6 @@ body {
 }
 .header__navigation {
   background-color: #0A223D;
-  margin-bottom: 20px;
 }
 .header__navigation-text {
   list-style-type: none;
@@ -427,7 +426,7 @@ body {
   color: #0A223D;
 }
 .hotel__name {
-  margin: 4px 10px 4px 0;
+  margin: 4px 10px 0 0;
   font-size: 24px;
 }
 .hotel__subtitle {
@@ -450,7 +449,7 @@ body {
 .hotel__short-description {
   display: flex;
   justify-content: space-between;
-  padding-top: 42px;
+  padding-top: 24px;
   padding-bottom: 20px;
 }
 .hotel__rate {
@@ -596,4 +595,83 @@ body {
   font-size: 48px;
   font-weight: 600;
   line-height: 45px;
+}
+
+.feedback {
+  background-color: #F5FAFE;
+  padding-top: 40px;
+}
+.feedback__block {
+  max-width: 1003px;
+  margin: auto;
+}
+.feedback__title {
+  margin-top: 0;
+  margin-bottom: 115px;
+  text-align: center;
+}
+.feedback__container {
+  display: flex;
+  justify-content: space-between;
+}
+.feedback__request {
+  border-radius: 8px;
+  position: relative;
+  background-color: #fff;
+  padding: 0 96px 30px 96px;
+  padding-right: 96px;
+  padding-left: 96px;
+  padding-bottom: 30px;
+  flex-basis: 72%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.feedback__avatar {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  top: -45px;
+}
+.feedback__link {
+  padding-top: 54px;
+  color: #EC1F46;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+}
+.feedback__text {
+  font-size: 12px;
+  line-height: 160%;
+  text-align: justify;
+  color: #333333;
+}
+.feedback__date {
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.breadcrumb {
+  max-width: 1003px;
+  margin: auto;
+}
+.breadcrumb-list {
+  padding-left: 0;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 18px 0;
+  margin: 0;
+}
+.breadcrumb-list__link {
+  text-decoration: none;
+  color: #0A223D;
+}
+.breadcrumb-list__item {
+  font-size: 10px;
+  line-height: 13px;
+}
+.breadcrumb-list__item:not(:last-child)::after {
+  content: "/";
+  margin-right: 4px;
 }/*# sourceMappingURL=style.css.map */
