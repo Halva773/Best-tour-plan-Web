@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="icon" href="img/avatar.png">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <link
     href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Mulish&family=Nunito:ital,wght@0,400;0,600;1,700&display=swap"
     rel="stylesheet">
@@ -76,7 +77,20 @@
         </div>
       </div>
       <div class="hotel__description">
-        <img src="img/Slider.png" alt="" class="hotel__slider">
+        <!-- Slider main container -->
+        <div class="swiper-container">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="img/Slider.png" alt=""></div>
+            <div class="swiper-slide"><img src="img/Slider.png" alt=""></div>
+            <div class="swiper-slide"><img src="img/Slider.png" alt=""></div>
+        </div>
+
+          <!-- If we need navigation buttons -->
+          <button class="slider-button slider-button--prev"></button>
+          <button class="slider-button slider-button--next"></button>
+        </div>
         <div class="hotel__price-and-place">
           <div class="hotel__buy-block">
             <div class="hotel__price">
@@ -155,4 +169,6 @@
     </div>
   </section>
 </body>
+<script src="js/swiper-bundle.min.js"></script>
+<script src="js/main.js"></script>
 </html>
