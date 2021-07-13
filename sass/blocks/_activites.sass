@@ -1,0 +1,60 @@
+.activities
+  &-container
+    +defoult-wight
+  &__title
+    margin-top: 130px
+    margin-bottom: 57px
+    font-weight: bold
+    font-size: 24px
+    line-height: 30px
+    text-transform: uppercase
+  &-wrapper
+    display: flex
+    justify-content: space-between
+.card
+  display: flex
+  flex-direction: column
+  position: relative
+  &__image
+    height: 255px
+    width: 255px
+    z-index: -1
+  &-title
+    max-width: 255px
+    font-family: Mulish
+    font-weight: bold
+    font-size: 16px
+    line-height: 20px
+    position: absolute
+    color: #FFFFFF
+    bottom: 72px
+    left: 27px
+    margin: 0
+  &-button
+    position: absolute
+    bottom: 24px
+    left: 26px
+    font-weight: 600
+    font-size: 12px
+    line-height: 16px
+    color: #FFFFFF
+    width: 100px
+    height: 30px
+    border-radius: 4px
+  &::before
+    content: ""
+    position: absolute
+    top: 0
+    bottom: 0
+    right: 0
+    left: 0
+    background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%)
+.title
+  &-one
+    max-width: 145px
+  &-two
+    max-width: 153px
+  &-three
+    max-width: 161px
+  &-four
+    max-width: 200px

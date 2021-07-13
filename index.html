@@ -19,7 +19,7 @@
       <img src="img/Best-tour-plan.svg" alt="">
       <form action="#" class="header__search">
         <input class="header__search-line" type="text" placeholder="Search Location |">
-        <button class="header__search-button"><img src="img/search.svg" alt=""></button>
+        <button class="header__search-button primary-button"><img src="img/search.svg" alt=""></button>
       </form>
       <div class="header__author">
         <img src="img/avatar.png" alt="Аватарка">
@@ -114,7 +114,7 @@
                 <span class="hotel__number">12100</span>
               </div>
             </div>
-            <button class="hotel__view-options">View Other Options</button>
+            <button class="hotel__view-options primary-button">View Other Options</button>
           </div>
           <iframe
             src="https://yandex.ru/map-widget/v1/?um=constructor%3A5c67469d4bd375d85aca06cad3e3364e3fe4b5f81da6c9771335851fa5ad59fd&amp;source=constructor"
@@ -134,49 +134,90 @@
         </div>
         <form action="#" class="news-follow__search">
           <input class="news-follow__search-line" type="text" placeholder="Your email address">
-          <button class="news-follow__search-button">Send</button>
+          <button class="news-follow__search-button primary-button">Send</button>
         </form>
       </div>
     </div>
   </section>
   <section class="feedback">
-    <h1 class="feedback__title">What people think about us</h1>
-    <div class="swiper-container feedback-slider">
-      <!-- Additional required wrapper -->
-      <div class="swiper-wrapper">
-        <!-- Slides -->
-        <div class="swiper-slide">
-          <div class="feedback__block">
-            <div class="feedback__container">
-              <div class="feedback__request">
-              <img src="img/feedback-avatar.png" alt="" class="feedback__avatar">
-              <a href="#" class="feedback__link">Megan Fox</a>
-              <span class="feedback__date">Stayed 18 Nov, 2019</span>
-              <div class="stars">
-                <img src="img/Star.svg" alt="Звезда" class="star">
-                <img src="img/Star.svg" alt="Звезда" class="star">
-                <img src="img/Star.svg" alt="Звезда" class="star">
-                <img src="img/Star.svg" alt="Звезда" class="star">
-                <img src="img/Star.svg" alt="Звезда" class="star">
+    <div class="feedback-wrapper">
+      <h1 class="feedback__title">What people think about us</h1>
+      <div class="swiper-container feedback-slider">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="feedback__block">
+              <div class="feedback__container">
+                <div class="feedback__request">
+                  <img src="img/feedback-avatar.png" alt="" class="feedback__avatar">
+                  <a href="#" class="feedback__link">Megan Fox</a>
+                  <span class="feedback__date">Stayed 18 Nov, 2019</span>
+                  <div class="stars">
+                    <img src="img/Star.svg" alt="Звезда" class="star">
+                    <img src="img/Star.svg" alt="Звезда" class="star">
+                    <img src="img/Star.svg" alt="Звезда" class="star">
+                    <img src="img/Star.svg" alt="Звезда" class="star">
+                    <img src="img/Star.svg" alt="Звезда" class="star">
+                  </div>
+                  <p class="feedback__text">It was very nice hotel with cleanliness. Staff behavior was good and polite. They
+                    welcome us very well. Issue was
+                    only
+                    that Lift was not in working and we were allotted to 3rd floor and amenities articles were in corner of
+                    gallery
+                    which
+                    were giving bad feeling. Breakfast was good and support of the staff was also very nice. Location is not
+                    good as
+                    per
+                    atmosphere, it is very nearby most of the popular places but self location in a narrow street is not good.
+                    Overall
+                    it
+                    was a good experience and could recommend.</p>
+                </div>
               </div>
-              <p class="feedback__text">It was very nice hotel with cleanliness. Staff behavior was good and polite. They
-                welcome us very well. Issue was
-                only
-                that Lift was not in working and we were allotted to 3rd floor and amenities articles were in corner of gallery
-                which
-                were giving bad feeling. Breakfast was good and support of the staff was also very nice. Location is not good as
-                per
-                atmosphere, it is very nearby most of the popular places but self location in a narrow street is not good.
-                Overall
-                it
-                was a good experience and could recommend.</p>
             </div>
           </div>
-        </div></div>
+        </div>
+        <!-- If we need navigation buttons -->
+          <div class="feedback__swiper-button feedback__swiper-button--prev"></div>
+          <div class="feedback__swiper-button feedback__swiper-button--next"></div>
       </div>
-      <!-- If we need navigation buttons -->
-      <div class="feedback__swiper-button feedback__swiper-button--prev"></div>
-      <div class="feedback__swiper-button feedback__swiper-button--next"></div>
+    </div>
+  </section>
+  <section class="activities">
+    <div class="activities-container">
+      <h2 class="activities__title">Other Activities</h2>
+      <div class="activities-wrapper">
+        <card class="card">
+          <img src="img/activites/activites-1.png" alt="The curious corner of chamarel" class="card__image">
+          <h3 class="card-title title-one">The curious corner of chamarel</h3>
+          <!-- /.card-title -->
+          <button class="card-button primary-button">Book Now</button>
+          <!-- /.card-button -->
+        </card>
+        <card class="card">
+          <img src="img/activites/activites-2.png" alt="Gymkhana club golf course" class="card__image">
+          <h3 class="card-title title-two">Gymkhana club golf course</h3>
+          <!-- /.card-title -->
+          <button class="card-button primary-button">Book Now</button>
+          <!-- /.card-button -->
+        </card>
+        <card class="card">
+          <img src="img/activites/activites-3.png" alt="Tamarind falls hiking trip - full day" class="card__image">
+          <h3 class="card-title title-three">Tamarind falls hiking trip - full day</h3>
+          <!-- /.card-title -->
+          <button class="card-button primary-button">Book Now</button>
+          <!-- /.card-button -->
+        </card>
+        <card class="card">
+          <img src="img/activites/activites-4.png" alt="The blue marine discovery quest" class="card__image">
+          <h3 class="card-title title-four">The blue marine discovery quest</h3>
+          <!-- /.card-title -->
+          <button class="card-button primary-button">Book Now</button>
+          <!-- /.card-button -->
+        </card>
+      </div>
+      <!-- /.activities-wrapper -->
     </div>
   </section>
 </body>

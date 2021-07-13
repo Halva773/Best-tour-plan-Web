@@ -1,6 +1,9 @@
 .feedback
   background-color: $main-bgc-color
   padding-top: 40px
+  &-wrapper
+    position: relative
+    +defoult-wight
   &__block
     +defoult-wight
     position: relative
@@ -57,8 +60,8 @@
       background-size: 10px
       background-color: transparent
       &--next
-        right: 193px
+        right: 0
         background-image: url(../img/arrow-next.svg)
       &--prev
-        left: 193px
+        left: 0
         background-image: url(../img/arrow-prev.svg)
