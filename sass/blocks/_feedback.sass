@@ -3,13 +3,13 @@
   padding-top: 40px
   &__block
     +defoult-wight
+    position: relative
   &__title
     margin-top: 0
-    margin-bottom: 115px
     text-align: center
   &__container
-    display: flex
-    justify-content: space-between
+    margin: auto
+    max-width: 731px
   &__request
     border-radius: 8px
     position: relative
@@ -22,11 +22,12 @@
     display: flex
     flex-direction: column
     align-items: center
+    margin-top: 115px
   &__avatar
     position: absolute
     width: 90px
     height: 90px
-    top: -45px
+    transform: translateY(-50%)
   &__link
     padding-top: 54px
     color: $accent
@@ -41,3 +42,23 @@
   &__date
     font-size: 13px
     margin-top: 10px
+  &__swiper
+    &-button
+      position: absolute
+      top: 50%
+      width: 30px
+      height: 30px
+      border: none
+      transform: translateY(-50%)
+      z-index: 99
+      cursor: pointer
+      background-repeat: no-repeat
+      background-position: center
+      background-size: 10px
+      background-color: transparent
+      &--next
+        right: 193px
+        background-image: url(../img/arrow-next.svg)
+      &--prev
+        left: 193px
+        background-image: url(../img/arrow-prev.svg)
