@@ -433,6 +433,10 @@ body {
   text-decoration: none;
   color: #0A223D;
 }
+.hotel__map {
+  width: 347px;
+  height: 213px;
+}
 .hotel__name {
   margin: 4px 10px 0 0;
   font-size: 24px;
@@ -587,6 +591,10 @@ body {
   z-index: -1;
   height: 260px;
 }
+.news-follow__bg-image--image {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 .news-follow__container {
   max-width: 1110px;
   margin: auto;
@@ -662,6 +670,7 @@ body {
 }
 .feedback__title {
   margin-top: 0;
+  margin-bottom: 0;
   text-align: center;
 }
 .feedback__container {
@@ -755,6 +764,7 @@ body {
   height: 255px;
   width: 255px;
   z-index: -1;
+  overflow: hidden;
 }
 .card-title {
   max-width: 255px;
@@ -979,4 +989,143 @@ body {
 
 .space {
   width: 136px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    margin-bottom: 60px;
+  }
+  .header__container {
+    max-width: 700px;
+  }
+  .header__navigation-list {
+    max-width: 700px;
+  }
+  .header__navigation-text {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .header__best-tour-plan {
+    width: 133px;
+    height: 18px;
+  }
+  .header__search {
+    width: 340px;
+  }
+
+  .breadcrumb {
+    max-width: 700px;
+  }
+
+  .hotel__container {
+    max-width: 700px;
+  }
+  .hotel__description {
+    flex-wrap: wrap;
+  }
+  .hotel-slider {
+    width: 100%;
+    margin-right: 0 !important;
+    margin-bottom: 30px;
+  }
+  .hotel__price-and-place {
+    display: flex;
+    justify-content: space-between;
+  }
+  .hotel__buy-block {
+    width: 340px;
+    margin-right: 20px;
+  }
+  .hotel__map {
+    width: 340px;
+  }
+
+  .news-follow {
+    background-image: url(../img/subscribe-bg-image--768px.jpg);
+  }
+  .news-follow__bg-image--image {
+    display: none;
+  }
+  .news-follow__bg-image--dark {
+    z-index: 0;
+  }
+  .news-follow__text {
+    z-index: 1;
+  }
+
+  .feedback__title {
+    font-size: 30px;
+    line-height: 38px;
+  }
+  .feedback__container {
+    max-width: 580px;
+    min-height: 300px;
+  }
+  .feedback__request {
+    margin-top: 95px;
+  }
+  .feedback-wrapper {
+    max-width: 700px;
+  }
+
+  .activities__title {
+    margin-top: 120px;
+  }
+  .activities-wrapper {
+    flex-wrap: wrap;
+  }
+  .activities-container {
+    max-width: 700px;
+    margin-bottom: 50px;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+  .card__image {
+    width: 340px;
+    justify-content: space-evenly;
+  }
+
+  .footer-conatiner {
+    max-width: 700px;
+    grid-template: auto/repeat(3, 1fr);
+    grid-gap: 40px;
+  }
+  .footer__socials {
+    grid-column: 2/4;
+    grid-row-start: 1;
+  }
+  .footer__best-tour-plan {
+    grid-row-end: 2;
+  }
+  .footer__categories {
+    grid-row-start: 2;
+  }
+  .footer__ps {
+    max-width: 700px;
+  }
+
+  .additional-information {
+    grid-row-start: 2;
+  }
+
+  .legal-information {
+    grid-row-start: 2;
+  }
+
+  .contacts {
+    grid-column: 1/4;
+    margin-top: 20px;
+  }
+
+  .send-message {
+    grid-column: 1/4;
+    max-width: 540px;
+    margin-top: 20px;
+  }
+
+  .space {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
